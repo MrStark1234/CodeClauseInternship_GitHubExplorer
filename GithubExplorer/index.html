@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stark-Github-Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <div class="container">
+
+        <h1>Stark's GitHub Explorer</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search Github Profile...">
+            <button onclick="searchRepositories()">Search</button>
+
+        </div>
+        <div id="repositoryDetails" style="display: none;"></div>
+        <ul id="repositories"></ul>
+        <ul id="repositoryList"></ul>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
